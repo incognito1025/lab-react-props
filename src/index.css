@@ -4,9 +4,9 @@
   --light: #e2e2e2;
   --dark: #022b3a;
   --primary: #2f9c95;
-  --secondary: #b27092;
+  --secondary: #b27092; 
 }
-
+/* create a variable called secondary */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -80,6 +80,7 @@ header p {
 }
 
 /* Progress */
+
 .progress {
   margin-bottom: 25px;
 }
@@ -87,8 +88,10 @@ header p {
 .secondary {
   color: var(--secondary);
 }
-
+/* .secondary class, command f to search by specific word
+var - kinda of like variable but in css form*/
 /* Donation Form */
+
 .donation input[type="text"],
 .donation input[type="number"] {
   display: block;
@@ -103,7 +106,7 @@ header p {
   padding: 10px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 965px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
   }
